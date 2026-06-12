@@ -1,0 +1,105 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo">Eco<span>Beauty</span></a>
+    <ul class="nav-links">
+      <li><a href="#problema">O Problema</a></li>
+      <li><a href="#usp-info">Dados USP</a></li>
+      <li><a href="#guia-descarte">Guia de Descarte</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Beleza Consciente</h1>
+    <p>O consumo excessivo de maquiagem e o descarte incorreto estão sufocando o nosso planeta. Descubra o impacto invisível da sua rotina de beleza.</p>
+    <a href="#problema" class="btn">Saiba Mais</a>
+  </div>
+</header>
+
+<main class="container">
+  <section id="problema" class="section card-grid">
+    <div class="card">
+      <i class="fas fa-shopping-bag card-icon"></i>
+      <h3>O Hiperconsumismo</h3>
+      <p>Impulsionado por tendências rápidas e influenciadores digitais, o mercado da beleza estimula a compra de mais cosméticos do que realmente conseguimos usar antes do vencimento.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-biohazard card-icon"></i>
+      <h3>Química Invisível</h3>
+      <p>Componentes como os <strong>parabenos</strong> e metais pesados presentes nas maquiagens não se decompõem facilmente, bioacumulando-se na fauna e flora.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-trash-alt card-icon"></i>
+      <h3>Microplásticos</h3>
+      <p>Glitter e esfoliantes contêm microplásticos que passam pelos sistemas de filtragem e acabam diretamente nos oceanos, contaminando a vida marinha.</p>
+    </div>
+  </section>
+
+  <section id="usp-info" class="section usp-section">
+    <h2>Alerta da Ciência: O Impacto nos Solos e Rios</h2>
+    <p class="subtitle">Com base nos estudos de <strong>Michelli Dario</strong> (Doutora em Ciências pela FCF-USP)</p>
+    
+    <div class="usp-content" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; margin-top: 2rem;">
+      
+      <div class="usp-image-container" style="max-width: 100%; text-align: center;">
+        <img src="https://jossesousa.com/wp-content/uploads/2025/07/sustentabilidade-e-reciclagem-onde-descartar-embalagens-de-cosmeticos-reciclagem-descarte-de-maquiagem-vencida-reciclagem-de-embalagens-de-cosmeticos-3-399x235.jpg" alt="Descarte Correto de Maquiagem e Cosméticos" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+      </div>
+
+      <div class="usp-text" style="flex: 1; min-width: 300px;">
+        <p>Segundo a especialista, o descarte inadequado de cosméticos gera uma reação em cadeia prejudicial à saúde humana e ambiental:</p>
+        <blockquote>
+          "Quando essas moléculas entram em contato, principalmente com a água, os animais acabam absorvendo-as e elas entram na cadeia alimentar. É uma cascata: nós interferimos no ambiente e elas, de alguma maneira, voltam ao nosso organismo."
+        </blockquote>
+        <p>Grande parte do descarte acontece devido ao vencimento prematuro de produtos. Na indústria, testes rigorosos de estabilidade e de prateleira definem a validade para garantir as características do produto, mas a falta de postos de coleta e de conscientização da população agrava o problema no Brasil.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guia-descarte" class="section interactive-guide">
+    <h2>Como descartar cada tipo de produto?</h2>
+    <p class="center">Clique no tipo de cosmético para ver a recomendação correta baseada nas diretrizes da USP.</p>
+    
+    <div class="tabs">
+      <button class="tab-btn active" onclick="openTab(event, 'liquidos')">Líquidos (Shampoos/Demaquilantes)</button>
+      <button class="tab-btn" onclick="openTab(event, 'semi-solidos')">Semissólidos (Cremes/Batons)</button>
+      <button class="tab-btn" onclick="openTab(event, 'quimicos')">Esmaltes e Óleos</button>
+    </div>
+
+    <div id="liquidos" class="tab-content" style="display:block;">
+      <h3><i class="fas fa-water"></i> Produtos Líquidos de Higiene</h3>
+      <p>Devem ser descartados diretamente na pia ou no vaso sanitário para que passem pela rede de tratamento de esgoto local (caso sua cidade possua saneamento básico).</p>
+    </div>
+
+    <div id="semi-solidos" class="tab-content">
+      <h3><i class="fas fa-bacon"></i> Produtos Semissólidos e Pastosos</h3>
+      <p>Condicionadores, cremes protetores, bases e batons vencidos podem ser destinados ao <strong>lixo comum</strong> para serem encaminhados aos aterros sanitários devidamente impermeabilizados.</p>
+    </div>
+
+    <div id="quimicos" class="tab-content">
+      <h3><i class="fas fa-exclamation-triangle"></i> Esmaltes, Removedores e Óleos</h3>
+      <p><strong>Atenção Crucial:</strong> São compostos altamente agressivos. Nunca jogue na pia ou no lixo comum. Eles devem ser levados obrigatoriamente a <strong>postos de coleta específicos</strong> ou pontos de logística reversa de fabricantes.</p>
+    </div>
+  </section>
+
+  <section class="section video-section" style="text-align: center; background-color: #ffffff; padding: 3rem 1rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); margin-top: 2rem;">
+    <h2 style="margin-bottom: 1rem;">Assista e Conscientize-se</h2>
+    <p style="color: #6c757d; margin-bottom: 2rem;">Entenda visualmente a importância de repensar nossos hábitos de consumo e descarte.</p>
+    
+    <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 800px; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <iframe 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+        src="https://www.youtube.com/embed/-brL2RHX60Y" 
+        title="Vídeo de Conscientização sobre Descarte de Cosméticos" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 EcoBeauty - Conscientização e Beleza Sustentável. Fontes: Jornal da USP / FCF-USP.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
